@@ -2,7 +2,7 @@
 //  HabitPlusEstudosApp.swift
 //  HabitPlusEstudos
 //
-//  Created by Pedro Kanagusto on 09/10/21.
+//  Created by PJSMK on 09/10/21.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct HabitPlusEstudosApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          SplashView(viewModel: SplashViewModel(interactor: SplashInteractor()))
         }
     }
 }
