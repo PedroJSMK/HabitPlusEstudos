@@ -10,7 +10,7 @@ import Foundation
 enum WebService {
   
   enum Endpoint: String {
-    case base = "https://habitplus-api.tiagoaguiar.co"
+    case base = "https:..."
     
     case postUser = "/users"
     case fetchUser = "/users/me"
